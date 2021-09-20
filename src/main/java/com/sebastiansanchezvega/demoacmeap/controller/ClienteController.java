@@ -1,4 +1,4 @@
-package com.nomealuno.demoacmeap.controller;
+package com.sebastiansanchezvega.demoacmeap.controller;
 
 import java.net.URI;
 import java.util.ArrayList;
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.nomealuno.demoacmeap.domain.Cliente;
-import com.nomealuno.demoacmeap.exception.RecursoNotFoundException;
-import com.nomealuno.demoacmeap.repository.ClienteRepository;
+import com.sebastiansanchezvega.demoacmeap.domain.Cliente;
+import com.sebastiansanchezvega.demoacmeap.exception.RecursoNotFoundException;
+import com.sebastiansanchezvega.demoacmeap.repository.ClienteRepository;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
